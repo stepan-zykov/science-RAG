@@ -13,3 +13,4 @@ redis
 grpcio
 google
 yandexcloud
+langchain_nomic

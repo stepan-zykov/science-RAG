@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-import uvicorn
 from langserve import add_routes
 import helpers
 
@@ -17,4 +16,6 @@ add_routes(
 )
 
 if __name__ == '__main__':
+    import uvicorn
+    
     uvicorn.run(app, host='localhost', port=8100)
